@@ -81,5 +81,8 @@
   "bugs": {
     "url": "https://github.com/kentcdodds/react-testing-library-course/issues"
   },
-  "homepage": "https://github.com/kentcdodds/react-testing-library-course#readme"
+  "homepage": "https://github.com/kentcdodds/react-testing-library-course#readme",
+  "devDependencies": {
+    "jest-watch-select-projects": "^2.0.0"
+  }
 }

@@ -1,7 +1,4 @@
-const config = require('kcd-scripts/jest')
-
 module.exports = {
-  ...config,
-  // we have no coverageThreshold on this project...
-  coverageThreshold: {},
+  ...require('./tests/jest-common.js'),
+  projects: ['./tests/jest.practice.js', './tests/jest.final.js'],
 }
