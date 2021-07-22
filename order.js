@@ -64,4 +64,33 @@ export default [
     final: ['./src/__tests__/prop-updates-02.js'],
     links: [],
   },
+  {
+    title: 'Mock HTTP Requests with jest.mock in React Component Tests',
+    src: ['./src/greeting-loader-01-mocking.js'],
+    practice: ['./src/__tests_practice__/http-jest-mock.js'],
+    final: ['./src/__tests__/http-jest-mock.js'],
+    links: [
+      'https://testing-library.com/docs/dom-testing-library/api-async#waitfor',
+      'https://kentcdodds.com/blog/fix-the-not-wrapped-in-act-warning',
+    ],
+  },
+  {
+    title: 'Test React Components that Use the react-router Router Provider',
+    src: ['./src/main.js'],
+    practice: ['./src/__tests_practice__/react-router-03.js'],
+    final: ['./src/__tests__/react-router-03.js'],
+    links: [
+      'https://reactrouter.com/web/api/BrowserRouter',
+      'https://developer.mozilla.org/en-US/docs/Web/API/History/pushState',
+    ],
+  },
+  {
+    title: 'The End',
+    src: [],
+    practice: [],
+    final: [],
+    links: [
+      'https://kentcdodds.com/blog/common-mistakes-with-react-testing-library',
+    ],
+  },
 ]
